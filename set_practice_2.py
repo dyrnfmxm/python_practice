@@ -1,0 +1,5 @@
+arr = input().split()
+print(arr)
+s = set(arr)
+print(s)
+print(sorted(s))
