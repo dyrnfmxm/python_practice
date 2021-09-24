@@ -1,8 +1,11 @@
-def solution(n):
-    i = 1
-    while True:
-        if n < i*i:
-            return -1
-        elif n == i * i:
-            return (i+1)**2
-        i += 1
+def solution(s):
+    arr = []
+    for i in s:
+        arr.append(ord(i))
+    arr.sort(reverse=True)
+    
+    answer = []
+    for i in arr:
+        answer.append(chr(i))
+        
+    return ''.join(answer)
