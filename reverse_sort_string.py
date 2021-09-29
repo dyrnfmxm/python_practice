@@ -7,5 +7,5 @@ def solution(s):
     answer = []
     for i in arr:
         answer.append(chr(i))
-        
+         
     return ''.join(answer)
