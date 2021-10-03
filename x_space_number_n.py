@@ -3,4 +3,5 @@ def solution(x, n):
     
     for i in range(n):
         answer.append(x + x * i)
+        
     return answer
