@@ -4,5 +4,4 @@ def solution(arr):
         if arr[i] != arr[i-1]:
             answer.append(arr[i])
     
-    
     return answer
