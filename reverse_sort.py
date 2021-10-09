@@ -1,4 +1,5 @@
 def solution(n):
+    
     a = str(n)
     arr = []
     for i in range(len(a)):
