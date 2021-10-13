@@ -10,4 +10,5 @@ def solution(n):
     
     for i in arr:
         answer += i
+        
     return int(answer)
