@@ -6,4 +6,5 @@ def solution(absolutes, signs):
             answer += absolutes[i]
         elif signs[i] == False:
             answer -= absolutes[i]
+            
     return answer
