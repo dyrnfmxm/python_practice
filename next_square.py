@@ -1,4 +1,5 @@
 def solution(n):
+    
     i = 1
     while True:
         if n < i*i:
