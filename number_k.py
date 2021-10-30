@@ -15,6 +15,5 @@ def solution(array, commands):
         answer.append(arr[c])
 
         
-
     return answer
 
