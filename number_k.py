@@ -7,7 +7,6 @@ def solution(array, commands):
 
         arr = array[a:b]
         arr.sort()
-        
         answer.append(arr[c])
         
     return answer
